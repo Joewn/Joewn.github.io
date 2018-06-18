@@ -1,9 +1,9 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "Joe's Blog",
+  "short_name": "TZ Blog",
+  "description": "A personal blog by tangzhi",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "img/pwa_icon_128.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {

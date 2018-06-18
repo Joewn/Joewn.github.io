@@ -5,7 +5,7 @@ header-img: img/post-bg-coffee.jpeg
 email: tangjian.ahau@outlook.com
 description: "唐知小语."
 keyword: "Tangzhi, Tangzhi's Blog, 唐知的博客, Joe, "
-url: "https://Joewn.github.io"          # your host, for absolute URL
+url: "http://Joewn.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Joewn/Joewn.github.io.git" # you code repository
 
@@ -61,9 +61,9 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: e5a29d6aa02df4f7852d                            #生成的clientID
-  clientSecret: cb187bc5ac4e9c2c7a65327e508072c2c8e9a098    #生成的clientSecret
+  enable: true    #是否开启Gitalk评论
+  clientID: 3757a6b21097a15de338                            #生成的clientID
+  clientSecret: d9cf107bff5e207c2c5513f0173e8efac1d5cd26    #生成的clientSecret
   repo: Joewn.github.io    #仓库名称
   owner: Joewn    #github用户名
   admin: Joewn    #github用户名 数组 可以多人 [a]

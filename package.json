@@ -3,10 +3,10 @@
     "title": "Joe's Blog",
     "author": "Joe <tangjian.ahau@gmail.com>",
     "version": "1.7.0",
-    "homepage": "https://Joewn.github.io",
+    "homepage": "http://Joewn.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Joewn/Joewn.github.io"
+        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
     },
     "bugs": "https://github.com/Joewn/Joewn.github.io/issues",
     "devDependencies": {

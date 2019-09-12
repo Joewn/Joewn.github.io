@@ -1,12 +1,12 @@
 {
     "name": "Joe's blog",
     "title": "Joe's Blog",
-    "author": "Joe <tangjian.ahau@gmail.com>",
+    "author": "Joe <tangjian.ahau@outlook.com>",
     "version": "1.7.0",
     "homepage": "http://Joewn.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
+        "url": "https://github.com/Joewn/Joewn.github.io"
     },
     "bugs": "https://github.com/Joewn/Joewn.github.io/issues",
     "devDependencies": {

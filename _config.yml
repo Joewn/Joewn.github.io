@@ -21,9 +21,9 @@ RSS: false
 weibo_username:     1729704874
 zhihu_username:     tang-jian-1991
 github_username:    Joewn
-facebook_username:  
-jianshu_username:   
-#twitter_username:  
+facebook_username:
+jianshu_username:
+#twitter_username:
 
 
 
@@ -104,11 +104,5 @@ friends: [
     },{
         title: "ska",
         href: "https://www.skatelescope.org/"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
     }
 ]

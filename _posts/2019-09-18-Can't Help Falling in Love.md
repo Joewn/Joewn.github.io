@@ -24,6 +24,4 @@ tags:
 >*Darling so it goes*  
 >*some things are meant to be*  
 >*take my hand, take my whole life too*  
->*for I can't help falling in love with you*  
-><br>
->*for I can't help falling in love with you*  
+>*for I can't help falling in love with you*<br>

@@ -2,7 +2,7 @@
 title: 唐知的博客
 SEOTitle: Joe's Blog|唐知的博客
 header-img: img/post-bg-coffee.jpeg
-email: tangjian.ahau@outlook.com
+email: 552397765@qq.com
 description: "唐知小语."
 keyword: "Tangzhi, Tangzhi's Blog, 唐知的博客, Joe, "
 url: "http://Joewn.github.io"          # your host, for absolute URL
@@ -11,7 +11,8 @@ github_repo: "https://github.com/Joewn/Joewn.github.io.git" # you code repositor
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Not everything that counts can be counted and not everything that's counted truly counts."
+# sidebar-about-description: "Not everything that counts can be counted and not everything that's counted truly counts."
+sidebar-about-description: "谎言就像蜘蛛网, 总是依赖于角落."
 sidebar-avatar: /img/about-cat-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

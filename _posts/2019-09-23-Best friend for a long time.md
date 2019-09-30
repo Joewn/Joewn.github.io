@@ -10,7 +10,7 @@ tags:
     -  think   
 ---
 
->*we will be best Friend for a long time*  
+>*we will be best friend for a long time*  
 >*只要我们还是同事一天，我们就是朋友。*  
 
 *失眠多梦*  
@@ -22,4 +22,7 @@ tags:
 
 *梦见你在这里留言*  
 *梦见你说对我很失望*  
-*感受到深深的绝望
+*感受到深深的绝望*  
+
+>*we will be best friend for ever*  
+>*滚滚滚*  

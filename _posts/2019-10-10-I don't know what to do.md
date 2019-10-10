@@ -7,7 +7,7 @@ author:     Joe
 header-img: img/post-bg-swift2.jpg
 catalog: true
 tags:
-    -  think   
+    -  sorry   
 ---
 原来你打水都不愿意经过我这边了  
 不明白为什么会变成这个样子  

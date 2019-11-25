@@ -12,7 +12,7 @@ github_repo: "https://github.com/Joewn/Joewn.github.io.git" # you code repositor
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 # sidebar-about-description: "Not everything that counts can be counted and not everything that's counted truly counts."
-sidebar-about-description: "谎言就像蜘蛛网, 总是依赖于角落."
+sidebar-about-description: "“谎言就像蜘蛛网, 总是依赖于角落.”"
 sidebar-avatar: /img/about-cat-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

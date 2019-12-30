@@ -1,109 +1,108 @@
-# Site settings
-title: 唐知的博客
-SEOTitle: Joe's Blog|唐知的博客
-header-img: img/post-bg-coffee.jpeg
-email: 552397765@qq.com
-description: "唐知小语."
-keyword: "Tangzhi, Tangzhi's Blog, 唐知的博客, Joe, "
-url: "http://Joewn.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Joewn/Joewn.github.io.git" # you code repository
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-# sidebar-about-description: "Not everything that counts can be counted and not everything that's counted truly counts."
-sidebar-about-description: "“谎言就像蜘蛛网, 总是依赖于角落.”"
-sidebar-avatar: /img/about-cat-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# SNS settings
-RSS: false
-weibo_username:     1729704874
-zhihu_username:     tj-tangzhi
-github_username:    Joewn
-facebook_username:
-jianshu_username:
-#twitter_username:
-
-
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: tangzhi
-
-# Gitalk
+disqus: ## Your disqus_shortname, e.g. username
+uyan: ## Your uyan_id. e.g. 1234567
+livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
+changyan: ## Your changyan appid, e.g. cyrALsXc8
+changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
+gitment:
+  enable: false ## If you want to use Gitment comment system please set the value to true.
+  owner: ## Your GitHub ID, e.g. username
+  repo: ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
+  client_id: ## GitHub client ID, e.g. 75752dafe7907a897619
+  client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 4ffa7771dc4b7d475988                            #生成的clientID
-  clientSecret: 90e5d728d8634847b7a7f4ea1eebaff2c22c504e    #生成的clientSecret
-  repo: Joewn.github.io    #仓库名称
-  owner: Joewn    #github用户名
-  admin: Joewn    #github用户名 数组 可以多人 [a]
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  enable: false ## If you want to use Gitment comment system please set the value to true.
+  owner:  ## Your GitHub ID, e.g. username
+  repo:  ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
+  client_id:  ## GitHub client ID, e.g. 75752dafe7907a897619
+  client_secret:  ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
+  admin:  ## Github repo owner and collaborators, only these guys can initialize github issues.
+valine: ## https://valine.js.org
+  enable: false ## If you want to use Valine comment system, please set the value to true.
+  appid: ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
+  verify: false ## Validation code.
+  placeholder: Just so so ## Comment box placeholders.
+  avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  pageSize: 10 ## Number of comments per page.
+  guest_info: nick,mail,link ## Attributes of reviewers.
 
+google_search: true ## Use Google search, true/false.
+baidu_search: false ## Use Baidu search, true/false.
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+self_search: false ## Use a jQuery-based local search engine, true/false.
+google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+fancybox: true ## If you want to use fancybox please set the value to true.
+show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+toc_number: true ## If you want to add list number to toc please set the value to true.
+shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
+busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
+wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
+widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+canvas_nest:
+  enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
+  color: ## RGB value of the color, e.g. "100,99,98"
+  opacity: ## Transparency of lines, e.g. "0.7"
+  zIndex: ## The z-index property of the background, e.g. "-1"
+  count: ## Quantity of lines, e.g. "150"
+donate:
+  enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
+  github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
+  alipay_qr: ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
+  wechat_qr: ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
+  btc_qr: ## Path of Bitcoin QRcode image, e.g. /img/BTCQR.png
+  btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
+  paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
+post_copyright:
+  enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
+  author: ## Your author name, e.g. tufu9441
+  copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
-# 统计
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: rss
+    directory: atom.xml
+    icon: fa-rss
 
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 9074d06cee367cd632952e37e20b63de
+widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - search
+  - category
+  - tag
+  - recent_posts
+  - recent_comments
+  - links
 
-# Google Analytics
-ga_track_id: 'UA-120910792-1'            # Format: UA-xxxxxx-xx
-ga_domain: tangzhi.tech               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+links:
+  - title: site-name1
+    url: http://www.example1.com/
+  - title: site-name2
+    url: http://www.example2.com/
+  - title: site-name3
+    url: http://www.example3.com/
 
+timeline:
+  - num: 1
+    word: 2014/06/12-Start
+  - num: 2
+    word: 2014/11/29-XXX
+  - num: 3
+    word: 2015/02/18-DDD
+  - num: 4
+    word: More
 
+# Static files
+js: js
+css: css
 
-
-
-# Featured Tags
-featured-tags: false                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# Friends
-friends: [
-    {
-        title: "cnlab",
-        href: "http://www.cnlab.net"
-    },{
-        title: "ska",
-        href: "https://www.skatelescope.org/"
-    }
-]
+# Theme version
+version: 0.0.0
